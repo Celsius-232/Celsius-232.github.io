@@ -1,0 +1,105 @@
+
+body,
+html {
+  font-size: 1em;
+  color: #2C2C2C;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+::selection {
+  background: white;
+}
+::-moz-selection {
+  background: white;
+}
+section {
+  height: 100%;
+  min-height: 335px;
+  background-color: #FFF;
+  background-image: radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -o-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -ms-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -moz-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -webkit-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  text-align: center;
+}
+
+
+section .quote {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 20%;
+  padding: 30px 0 15px 0;
+}
+section .quote cite {
+  color: #000;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 110%;
+  font-size: 1.7em;
+  font-variant: small-caps;
+}
+
+section .beatty {
+  position: absolute;
+  left: 50%;
+  right: 25%;
+  top: 72.5%;
+  padding: 30px 0 15px 0;
+}
+
+section .beatty cite {
+  color: #000;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 110%;
+  font-size: 1.7em;
+  font-variant: small-caps;
+}
+
+
+section .beatty {
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#nextpage {
+        position: absolute;
+        display: inline-block;
+        padding: 10px;
+        background: rgba(240, 240, 240, 0.44);
+        border: 1px solid #BABABA;
+        color: #696969;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 80%;
+        top: 94%;
+        right: 0%;
+        width: 100%;
+}
+
+#nextpage {
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

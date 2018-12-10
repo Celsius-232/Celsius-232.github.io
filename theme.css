@@ -1,0 +1,30 @@
+
+body,
+html {
+  height: 100%;
+  min-height: 335px;
+  background-color: #FFF;
+  background-image: radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -o-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -ms-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -moz-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  background-image: -webkit-radial-gradient(center top, circle cover, #FFF, #D6D6D6);
+  text-align: center;
+}
+
+::selection {
+  background: white;
+}
+::-moz-selection {
+  background: white;
+}
+
+section h1,h2 {
+  color: #000;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 110%;
+  font-size: 1.7em;
+  font-variant: small-caps;
+}
